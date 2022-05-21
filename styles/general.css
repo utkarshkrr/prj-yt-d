@@ -1,0 +1,47 @@
+p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+body{
+  /*This style below will be inherited*/
+  margin: 0px;
+  padding-top: 80px;
+  padding-left: 95px;
+  padding-right: 25px;
+  height: 2000px;
+  background-color: rgb(245, 245, 245);
+  font-family: roboto, arial;
+}
+  @media(min-width:1200px){
+    body{
+      padding-left: 220px;
+    }
+  }
+.youtube .logo-tooltip{
+  font-size: 12px;
+  background-color: rgb(89, 89, 89);
+  color: white;
+  width: fit-content;
+  padding: 2px;
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: -15px;
+  margin-left: 15px;
+  opacity: 0;
+  transition: all 0.2s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+  .youtube:hover .logo-tooltip{
+    opacity: 0.8;
+    z-index: 105;
+  }
+.demo-disclaimer{
+  color: white;
+  font-size: 35px;
+  position: fixed;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  padding-top: 10px;
+}
