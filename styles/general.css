@@ -39,9 +39,11 @@ body{
   }
 .demo-disclaimer{
   color: white;
-  font-size: 35px;
   position: fixed;
   bottom: 0;
+  left: 0;
+  right:0;
   background-color: rgba(0,0,0,0.5);
   padding-top: 10px;
+  z-index: 200;
 }
